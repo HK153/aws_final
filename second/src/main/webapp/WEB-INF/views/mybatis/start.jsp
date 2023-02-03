@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2> 나의 회원관리 프로그램입니다.</h2>
+<h2> 나의 회원관리 프로그램입니다.(수정)</h2>
 <h4>
 <ul>
 
