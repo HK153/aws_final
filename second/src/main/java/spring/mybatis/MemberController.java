@@ -74,10 +74,6 @@ public class MemberController {
 	public String memberinsert() {
 		return "mybatis/memberinsert";
 	}
-	@GetMapping("/memberinsert2")
-	public String memberinsert2() {
-		return "mybatis/memberinsert2";
-	}
 	
 	@PostMapping("/memberinsert")
 	public ModelAndView memberinsert(@ModelAttribute("dto")MemberDTO dto ) throws IOException {

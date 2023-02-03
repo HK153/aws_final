@@ -15,7 +15,7 @@
 </head>
 <body>
 <!-- html form(파라미터이름) --MemberDTO(프로퍼티이름)--Member테이블(컬럼이름 )저장 -->
-<form action="<%=request.getContextPath() %>/memberinsert2" method="post" enctype="multipart/form-data">
+<form action="<%=request.getContextPath() %>/memberinsert" method="post" enctype="multipart/form-data">
 <table >
 <tr> <th colspan="2" text-align="center"><h2>회원가입 폼</h2></th> </tr>
 <tr>
