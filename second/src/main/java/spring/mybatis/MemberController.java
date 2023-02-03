@@ -16,6 +16,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.example.demo.MyWebConfig;
+
 import jakarta.servlet.http.HttpSession;
 
 @Controller
@@ -83,7 +85,7 @@ public class MemberController {
 		
 		//파일 업로드 c:/upload 저장처리
 		//dto image변수에 c:upload 저장파일명 세팅 
-		String savePath = "c:/upload/";
+		String savePath = MyWebConfig.savePath;
 		MultipartFile imagefile = dto.getImagefile();
 		String filename = imagefile.getOriginalFilename();
 		String beforeext = filename.substring(0,filename.lastIndexOf("."));
